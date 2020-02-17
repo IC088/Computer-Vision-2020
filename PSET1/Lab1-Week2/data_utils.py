@@ -3,7 +3,10 @@ from __future__ import print_function
 from six.moves import cPickle as pickle
 import numpy as np
 import os
-from scipy.misc import imread
+# Need to change imreaad since after scipoy version 1.2.0 it is depreciated
+# from scipy.misc import imread
+
+from matplotlib.pyplot import imread
 import platform
 
 def load_pickle(f):
