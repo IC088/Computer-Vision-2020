@@ -5,6 +5,9 @@ from builtins import range
 import urllib.request, urllib.error, urllib.parse, os, tempfile
 
 import numpy as np
+
+
+# from matplotlib.pyplot import imread, imresize
 from scipy.misc import imread, imresize
 
 """
